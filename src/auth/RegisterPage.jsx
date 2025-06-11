@@ -11,7 +11,7 @@ function RegisterPage() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001/users");
+      const response = await fetch("https://api-prueba1-eog3.onrender.com/users");
       const users = await response.json();
 
       const exists = users.find((u) => u.email === email);
@@ -25,7 +25,7 @@ function RegisterPage() {
       }
 
       const newUser = { email, password };
-      const res = await fetch("http://localhost:3001/users", {
+      const res = await fetch("https://api-prueba1-eog3.onrender.com/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newUser),
