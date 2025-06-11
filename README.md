@@ -170,7 +170,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👨‍💻 Autor
 
-Desarrollado como parte de una prueba técnica para PixelHub S.A.S
+Desarrollado por Daniel Mazo Alarcón como parte de una prueba técnica para una empresa ficticia
 
 ---
 
